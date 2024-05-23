@@ -44,6 +44,36 @@ body{
     text-decoration: underline;
     color:#1D232C;
 }
+/* side Navbar */
+.side-navbar{
+    display:none;
+    position: fixed;
+    top:0;
+    left:0;
+    padding: 20px;;
+    background-color:#1D232C ;
+    color:#E2E1E1;
+    width:25%;
+    height:100%;
+    z-index: 20;
+    
+}
+.side-navbar-close:hover i{
+    cursor: pointer;
+}
+.side-navbar-close{
+    text-align:right;
+    padding: 20px;
+}
+.navbar-link p{
+    margin-top: 30px;
+    padding: 20px;
+}
+.navbar-link a{
+    text-decoration: none;
+    color:#E2E1E1;
+    
+}
 
 /* Slider */
 .slider{
@@ -72,7 +102,7 @@ body{
 .slider-right-button{
     position: absolute;
     top:35%;
-    left:5%;
+    right:5%;
     
 }
 .slider-right-button i{
@@ -84,4 +114,77 @@ body{
     text-align: center;
     width:100%;
     top:20%;
+}
+.brand{
+    margin-top: 50px;
+}
+.brand-icons{
+    margin-top: 20px;
+    padding: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.brand-image img{
+    width:150px;
+    height: 150px;
+}
+.brand-image p{
+    text-align: center;
+}
+.expre{
+    margin-top:30px;
+    padding: 20px;
+}
+.expre-contant{
+    display:flex;
+    justify-content:space-between;
+    padding: 30px;
+    /* position: absolute; */
+}
+.expre-contant-1 p{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 30px;
+    padding: 20px;
+}
+.expre-contant-2{
+    font-size: 30px;
+    padding: 20px;
+    left:100px;
+    position: relative;
+    left: 400px;
+}
+
+.desc-box-icon p{
+    width:25%;
+    height:25%;
+}
+.description{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+   
+    
+}
+.description div{
+    background-color: #F2F4F7;
+    border-radius: 10px;
+    padding: 30px;
+}   
+.arrival{
+    padding: 10px;
+    margin-top: 30px;
+}
+.arrival-box img{
+    width:300px;
+}
+.arrival-box{
+    display:flex;
+    position: relative;
+}
+.arrival-box div{
+    position: absolute;
+    left:100px;
 }
